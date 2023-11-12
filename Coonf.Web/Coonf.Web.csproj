@@ -15,4 +15,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.20" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Coonf.Application\Coonf.Application.csproj" />
+    <ProjectReference Include="..\Coonf.Infrastructure\Coonf.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
